@@ -19,11 +19,14 @@
 	height:120px;
 	width:1200px;
 }
+.nav_li li
+{
+	display: inline-block;
+}
 .nav_li a
 {
 	color: white;
 	font-size: 24px;
-	float: left;
 	line-height: 120px;
 	font-family: "308-CAI978";
 }
