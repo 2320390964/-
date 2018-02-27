@@ -22,8 +22,7 @@
 .li
 {
 	display:inline-block;
-	width:120px;
-/* 	border:1px solid red;  */
+	margin-right:40px;
 }
 .special_li
 {
@@ -246,13 +245,19 @@
 .two_head
 {
 	width:341px;
-	height:90px;
+	height:80px;
 	margin-left: 14px;
 	font-family: "308-CAI978";
 	font-size: 30px;
 	color: #ffffff;
 	line-height: 40px;
 	padding-top: 10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+
 }
 .two_text
 {
@@ -308,6 +313,9 @@
 	height:30px;
 	line-height: 30px;
 	margin-left: 15px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
 }
 .three_text
 {
